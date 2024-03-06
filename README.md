@@ -1,1 +1,1 @@
-https://github.com/Alex7217/my-webcore6.git
+https://alex7217.github.io/my-webcore6/
