@@ -6,16 +6,17 @@
 }
 
 
-body{
- 
-  box-shadow: 16px 0px 52px #0E185033, -1px 0px 4px #454F7E05;
-  /* border: 5px solid red; */
+body {
+  box-shadow: 16px 0px 52px #0E185033;
   width: 320px;
-  height: 1024px;
+  height: 100%;
   font-family: 'TT Lakes';
   font-weight: normal;
   font-style: normal;
+  margin: 0;
+  padding: 0;
 }
+
 /*HEADER*/
 .header{
   position: relative
@@ -51,7 +52,7 @@ ul {
 
 .main__container{
   position: relative;
-  width: 222px;
+  width: 320px;
   height: 710px;
   top: 116px;
   right: 20px;  
@@ -76,10 +77,11 @@ ul {
   left: 24px;
   width: 196px;
   height: 124px;
-  
+  top: -20px
 }
 .contact__icon{
   position: absolute;
+  top: -50px
 }
 
 .contacts__chat{
@@ -92,18 +94,18 @@ ul {
 .contacts__mail,
 .contacts__phone,
 .contacts__language{
- position: absolute;
+ position: relative;
 }
 .contacts__mail{
-  top: 35px
+  top: 20px
 }
 .contacts__phone{
-  top: 66px;
+  top: 22px;
 }
 .contacts__language{
 display: flex;
-margin-top: 40px;
-top: 150px;
+margin-top: 30px;
+
 }
 
 .contacts__language > div {
