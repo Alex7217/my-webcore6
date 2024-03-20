@@ -17,6 +17,7 @@ body {
   font-family: 'TT Lakes';
   font-weight: normal;
   font-style: normal;
+  padding-left: 24px;
 
 }
 
@@ -32,7 +33,7 @@ body {
 }
 
 .header__burger{
-  margin-left:24px;
+  /* margin-left:24px; */
   margin-right: 16px;
 }
 
@@ -78,6 +79,7 @@ ul {
 .contacts{
   position: relative;
   margin-top: 268px;
+  
   /* width: 196px;
   height: 124px; */
   
