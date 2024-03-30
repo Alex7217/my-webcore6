@@ -17,14 +17,14 @@ body {
   font-family: 'TT Lakes';
   font-weight: normal;
   font-style: normal;
-  padding-left: 24px;
+  padding-left: 24px;  
 
 }
 
 /*HEADER*/
 .header{
   position: relative;
-  
+  padding-left: 24px;
 }
 
 .header__icons{
@@ -58,9 +58,9 @@ ul {
 .main__container{
   position: relative;
   width: 320px;
-  /* height: 710px; */
+ padding-left: 10px;
   margin-top: 46px;
-
+ 
 
   
 }
@@ -79,11 +79,7 @@ ul {
 .contacts{
   position: relative;
   margin-top: 268px;
-  
-  /* width: 196px;
-  height: 124px; */
-  
-
+  padding-bottom: 32px;
 }
 .contact__icon{
 
